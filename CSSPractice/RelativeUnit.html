@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Unit</title>
+<style>
+*{
+    margin:0px;
+padding: 0px;
+font-size: 20px;
+}
+
+
+#first{
+    height:200px;
+    width:300px;
+    background-color: #fb0202;
+    font-size: 30px;
+}
+#second{
+    height: 30%;
+    width: 40%;
+    background-color: aqua;
+     /* ///Reltive to parent (em) double the size of parent element */
+    /* font-size: 2em; */
+    /* ///Reltive to root element (rem) double the size of root element i.e is body in this case */
+    font-size: 2rem;
+
+
+   
+}
+
+</style>
+
+</head>
+<body>
+    body
+    <div id="first">First
+
+
+        <div id="second">Second</div>
+    </div>
+   
+</body>
+</html>
